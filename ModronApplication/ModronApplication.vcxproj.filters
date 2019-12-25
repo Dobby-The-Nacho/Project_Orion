@@ -1,17 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
+    <Filter Include="Front End">
+      <UniqueIdentifier>{b3726001-7906-418e-ba2a-ba50d48b1995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Front End\Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Front End\Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Front End\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Back End">
+      <UniqueIdentifier>{55e94f02-94f8-4f72-961a-80a9a841f4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Header Files">
+      <UniqueIdentifier>{8650f522-50a2-45cb-ac01-ec08288b2290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Source Files">
+      <UniqueIdentifier>{386ec4e7-f36b-4927-9b09-6c50de90861b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\SubComponents">
+      <UniqueIdentifier>{7d2af1b6-4ec2-41a3-92ae-8593697d0898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Components">
+      <UniqueIdentifier>{6c892d49-c5c4-4a54-b9d4-07aee2fa48fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Tools">
+      <UniqueIdentifier>{013e74f5-8c7c-4a8f-8c27-4e07c793a002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Data_Files">
+      <UniqueIdentifier>{2c27cc36-cd9d-434d-b7c7-579c6f02126c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Testing">
+      <UniqueIdentifier>{d52044f4-4eb1-4a66-84b0-40fe6f2532a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\SubComponents\Factories">
+      <UniqueIdentifier>{f040a262-9eac-41f9-9229-1bbcdc198b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Components\Factories">
+      <UniqueIdentifier>{2edbb8fd-c2be-48f0-a1e8-834ca6bd8fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Modron">
+      <UniqueIdentifier>{53acb90f-cb53-4ddf-b62d-d3f3c18707ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Modron\Factories">
+      <UniqueIdentifier>{b1381c76-1b93-4338-835c-128bbb99030d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Front End\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brain.cpp">
+      <Filter>Back End\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Back End\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mandate_Card.cpp">
+      <Filter>Back End\SubComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Signal_Port.cpp">
+      <Filter>Back End\SubComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Signal_Reader.cpp">
+      <Filter>Back End\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Mandate_Repository.cpp">
+      <Filter>Back End\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Console_Entry_Point.cpp">
+      <Filter>Back End\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Component_Factory.cpp">
+      <Filter>Back End\Components\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="SubComponent_Factory.cpp">
+      <Filter>Back End\SubComponents\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Modron_Factory.cpp">
+      <Filter>Back End\Modron\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Beta_Modron.cpp">
+      <Filter>Back End\Modron</Filter>
+    </ClCompile>
+    <ClCompile Include="Modron.cpp">
+      <Filter>Back End\Modron</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Front End\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brain.h">
+      <Filter>Back End\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Back End\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modron_SubComponent.h">
+      <Filter>Back End\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Modron_Component.h">
+      <Filter>Back End\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Mandate_Card.h">
+      <Filter>Back End\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Signal_Port.h">
+      <Filter>Back End\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Signal_Reader.h">
+      <Filter>Back End\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Mandate_Repository.h">
+      <Filter>Back End\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Modron_Enums.h">
+      <Filter>Back End\Data_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console_Entry_Point.h">
+      <Filter>Back End\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Mandate_Data.h">
+      <Filter>Back End\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Factory.h">
+      <Filter>Back End\Components\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="SubComponent_Factory.h">
+      <Filter>Back End\SubComponents\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Modron_Factory.h">
+      <Filter>Back End\Modron\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Modron.h">
+      <Filter>Back End\Modron</Filter>
+    </ClInclude>
+    <ClInclude Include="Beta_Modron.h">
+      <Filter>Back End\Modron</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,49 @@
+#pragma once
+
+enum MODRON_SECTIONS : unsigned char {
+	//'revise
+	MODRON_SECTION		= 5,
+	QUALITY_SECTION		= 3,
+
+};
+
+enum MODRON_SECTION_SIZES : unsigned char {
+
+	MODRON_SECTION_SIZE = 2,
+	QUALITY_SECTION_SIZE= 3,
+
+};
+
+enum MODRON_IDENTIFIERS : unsigned char {
+
+	MODEL_IDENT			= 0b01000000,
+	COMPONENT_IDENT		= 0b10000000,
+	SUBCOMPONENT_IDENT	= 0b11000000
+
+};
+
+enum MODRON_MODEL : unsigned char {
+
+	MODEL_BETA			= 0b00000001
+
+};
+
+enum MODRON_COMPONENT : unsigned char {
+
+	COMPONENT_BETA		= 0b00000001,
+	MANDATE_REPOSITORY	= 0b00000010
+
+};
+
+enum MODRON_SUBCOMPONENT : unsigned char {
+
+	SUBCOMPONENT_BETA	= 0b00000001,
+	MISSION_CARD		= 0b00000010
+
+};
+
+enum PART_QUALITY : unsigned char {
+
+	BASIC				= 0b00001000
+
+};
