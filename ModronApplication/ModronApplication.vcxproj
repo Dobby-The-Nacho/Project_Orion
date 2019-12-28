@@ -105,6 +105,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>console_main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -135,12 +137,14 @@
   <ItemGroup>
     <ClCompile Include="Beta_Modron.cpp" />
     <ClCompile Include="Brain.cpp" />
+    <ClCompile Include="Commands.cpp" />
     <ClCompile Include="Component_Factory.cpp" />
     <ClCompile Include="Connection.cpp" />
     <ClCompile Include="Console_Entry_Point.cpp" />
     <ClCompile Include="Mandate_Repository.cpp" />
     <ClCompile Include="Mandate_Card.cpp" />
     <ClCompile Include="Modron.cpp" />
+    <ClCompile Include="Modron_Component.cpp" />
     <ClCompile Include="Modron_Factory.cpp" />
     <ClCompile Include="SubComponent_Factory.cpp" />
     <ClCompile Include="MyForm.cpp" />
@@ -150,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="Beta_Modron.h" />
     <ClInclude Include="Brain.h" />
+    <ClInclude Include="Commands.h" />
     <ClInclude Include="Component_Factory.h" />
     <ClInclude Include="Modron.h" />
     <ClInclude Include="Modron_Factory.h" />

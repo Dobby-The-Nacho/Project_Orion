@@ -1,5 +1,4 @@
 #pragma once
-#include <list>
 #include "Mandate_Card.h"
 #include "Modron_Component.h"
 

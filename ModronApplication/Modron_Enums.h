@@ -31,7 +31,8 @@ enum MODRON_MODEL : unsigned char {
 enum MODRON_COMPONENT : unsigned char {
 
 	COMPONENT_BETA		= 0b00000001,
-	MANDATE_REPOSITORY	= 0b00000010
+	BRAIN				= 0b00000010,
+	MANDATE_REPOSITORY	= 0b00000011
 
 };
 
@@ -45,5 +46,11 @@ enum MODRON_SUBCOMPONENT : unsigned char {
 enum PART_QUALITY : unsigned char {
 
 	BASIC				= 0b00001000
+
+};
+
+enum COMMANDS : unsigned char {
+
+	NONE				= 0b00000000
 
 };

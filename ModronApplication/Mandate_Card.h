@@ -1,9 +1,10 @@
 #pragma once
-#include "Mandate_Data.h"
-#include "string.h"
-#include "Modron_SubComponent.h"
-#include "Modron_Enums.h"
+#include <string>
 #include <fstream>
+#include <fstream>
+
+#include "Mandate_Data.h"
+#include "Modron_SubComponent.h"
 
 class Mandate_Card : public Modron_SubComponent
 {
@@ -20,6 +21,7 @@ public:
 	std::string get_File_Name_();
 
 	int diagnostic() { return 0; };
+	int execute() { return 0; }
 
 	bool operator == (const Mandate_Card& mc) const 
 	{ 

@@ -19,12 +19,6 @@
     <Filter Include="Back End">
       <UniqueIdentifier>{55e94f02-94f8-4f72-961a-80a9a841f4ba}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Back End\Header Files">
-      <UniqueIdentifier>{8650f522-50a2-45cb-ac01-ec08288b2290}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Back End\Source Files">
-      <UniqueIdentifier>{386ec4e7-f36b-4927-9b09-6c50de90861b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Back End\SubComponents">
       <UniqueIdentifier>{7d2af1b6-4ec2-41a3-92ae-8593697d0898}</UniqueIdentifier>
     </Filter>
@@ -52,16 +46,16 @@
     <Filter Include="Back End\Modron\Factories">
       <UniqueIdentifier>{b1381c76-1b93-4338-835c-128bbb99030d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Back End\Materials">
+      <UniqueIdentifier>{dee51bd9-1d13-4f43-b29f-bad0066b0ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Ancillary">
+      <UniqueIdentifier>{705a18eb-4504-4f8a-901c-ad41eb8c0b7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp">
       <Filter>Front End\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Brain.cpp">
-      <Filter>Back End\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Connection.cpp">
-      <Filter>Back End\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Mandate_Card.cpp">
       <Filter>Back End\SubComponents</Filter>
@@ -93,16 +87,22 @@
     <ClCompile Include="Modron.cpp">
       <Filter>Back End\Modron</Filter>
     </ClCompile>
+    <ClCompile Include="Brain.cpp">
+      <Filter>Back End\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Modron_Component.cpp">
+      <Filter>Back End\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Back End\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Back End\Ancillary</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <Filter>Front End\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Brain.h">
-      <Filter>Back End\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Connection.h">
-      <Filter>Back End\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Modron_SubComponent.h">
       <Filter>Back End\SubComponents</Filter>
@@ -145,6 +145,15 @@
     </ClInclude>
     <ClInclude Include="Beta_Modron.h">
       <Filter>Back End\Modron</Filter>
+    </ClInclude>
+    <ClInclude Include="Brain.h">
+      <Filter>Back End\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Back End\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Back End\Ancillary</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
